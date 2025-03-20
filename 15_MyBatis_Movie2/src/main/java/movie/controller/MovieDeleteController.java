@@ -24,4 +24,7 @@ public class MovieDeleteController {
 		//master 수정
 		//master 수정
 	}
-}
+}//kim도 추가함
+//kim도 추가함
+//kim 추가함
+//kim 추가함
