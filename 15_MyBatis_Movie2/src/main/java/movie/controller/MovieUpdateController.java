@@ -40,7 +40,7 @@ public class MovieUpdateController {
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("movie", mb);
 		mav.addObject("pageNumber", pageNumber);
-		mav.setViewName(getPage); // 수정폼
+		mav.setViewName(getPage); // 띠옹
 
 		return mav;
 	}
@@ -56,7 +56,7 @@ public class MovieUpdateController {
 		ModelAndView mav = new ModelAndView();
 		if(result.hasErrors()) {
 			mav.addObject("pageNumber", pageNumber); 
-			mav.setViewName(getPage); // 수정form
+			mav.setViewName(getPage); // �닔�젙form
 			return mav;
 		}
 		
