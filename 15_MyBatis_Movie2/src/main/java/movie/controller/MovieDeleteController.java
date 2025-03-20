@@ -19,5 +19,9 @@ public class MovieDeleteController {
 	public String delete(@RequestParam("num") int num) {    //kim//kim
 		int cnt=mdao.delete(num);
 		return gotoPage;
+		
+		//master 수정
+		//master 수정
+		//master 수정
 	}
 }

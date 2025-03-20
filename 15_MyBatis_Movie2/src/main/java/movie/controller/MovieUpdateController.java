@@ -58,7 +58,7 @@ public class MovieUpdateController {
 			mav.addObject("pageNumber", pageNumber); 
 			mav.setViewName(getPage); // �닔�젙form
 			return mav;
-		}
+		}asdf
 		
 		int cnt = mdao.update(movie);
 		mav.addObject("pageNumber", pageNumber); 
