@@ -20,4 +20,7 @@ public class MovieDeleteController {
 		int cnt=mdao.delete(num);
 		return gotoPage;
 	}
-}
+}//kim도 추가함
+//kim도 추가함
+//kim 추가함
+//kim 추가함
