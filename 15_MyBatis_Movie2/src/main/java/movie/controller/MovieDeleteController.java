@@ -13,7 +13,7 @@ public class MovieDeleteController {
 	private final String gotoPage="redirect:/list.mv";
 	
 	@Autowired
-	MovieDao mdao;  
+	MovieDao mdao;//dkffufnasdf¤·¶÷´É¸®  
 	
 	@RequestMapping(command)
 	public String delete(@RequestParam("num") int num) {

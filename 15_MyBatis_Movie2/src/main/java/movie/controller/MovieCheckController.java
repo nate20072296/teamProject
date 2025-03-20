@@ -14,7 +14,7 @@ public class MovieCheckController {
 	
 	@Autowired
 	MovieDao mdao;  
-	
+	//cpdpaps
 	//movieInsertFom.jsp�뿉�꽌 以묐났泥댄겕 �겢由�
 	@RequestMapping(command)
 	@ResponseBody	//臾몄옄 洹� �옄泥대�� �삷湲몃븣
