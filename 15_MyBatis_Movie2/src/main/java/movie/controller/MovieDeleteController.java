@@ -16,7 +16,7 @@ public class MovieDeleteController {
 	MovieDao mdao;//dkffufnasdf¤·¶÷´É¸®  
 	
 	@RequestMapping(command)
-	public String delete(@RequestParam("num") int num) {
+	public String delete(@RequestParam("num") int num) {    //kim
 		int cnt=mdao.delete(num);
 		return gotoPage;
 	}
